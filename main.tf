@@ -3,6 +3,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-terraform-demo"
+  name     = "rg-terraform-demo-2"
   location = "eastus"
 }
